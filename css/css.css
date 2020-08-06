@@ -1,0 +1,71 @@
+nav {
+    height: 70px;
+    padding: 15px 80px;
+}
+
+nav div {
+    float: right;
+}
+
+nav img {
+    height: 40px;
+    margin: 15px;
+}
+
+header {
+    height: 500px;
+    background-image: url("../img/paisagem.jpg");
+    background-size: 100%;
+    background-position: 0px -70px;
+    background-repeat: no-repeat;
+}
+
+.h-esquerda {
+    background-color: rgba(37,37,37, 0.5);
+    width: 37%;
+    height: 500px;
+    position: relative;
+}
+
+
+
+.h-content {
+    width: 25%;
+    float: left;
+    position: absolute;
+    top: 200px;
+    left: 130px;
+}
+
+header div p {
+    font-size: 1.8em;
+}
+
+#tema {
+    margin-top: 110px;
+}
+
+.card img {
+    width: 98%;
+    margin: 8px;
+}
+
+.loading {
+    display: none;
+    margin: 60px auto 0 auto;
+}
+
+footer {
+    height: 110px;
+    justify-content: center;
+}
+
+footer img{
+    
+    width: 120px;
+    height: 70px;
+
+}
+
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+        <title>Mollo</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/Logo4.png">
+        <link rel="stylesheet" type="text/css" href="css/css.css">
+        <link rel="stylesheet" type="text/css" href="css/geral.css">
+    </head>
+    <body class="bg-dark-3">
+        <nav class="bg-dark-1">
+            <div>
+                <a href="#inicio"><button class="btn bg-transparent text-white">Início</button></a>
+                <a href="#gifs"><button class="btn bg-transparent text-white">GIFs</button></a>
+            </div>
+            <img src="img/Logo4.png" alt="logo do site">
+        </nav>
+        <header class="inicio">
+            <div class="h-direita"></div>
+            <div class="h-esquerda"></div>
+            <div class="h-content">
+                <div class="">
+                    <p class="text-white">Para encontrar um GIF basta pesquisar</p>
+                    <a href="#gifs"><button class="btn text-white bg-light-1">Pesquisar</button></a>
+                </div>
+            </div>
+        </header>
+        
+        <div class="container" id="gifs">
+            <div class="div-header">
+                <h1 class="text-white">GIFs</h1>
+                <p class="text-gray">Quem usa gif hoje em dia gente? aaaaaa eu :)</p>
+            </div>
+            <div class="pesquisa">
+                <input id="tema" type="text" placeholder="Pesquisar..." class="text-box bg-light-1 text-white">
+            </div>
+            
+            <img class="loading" src="img/loading/loading.gif">
+            
+            <div class="cards">
+                <div class="row">
+                    <div class="card bg-light-1">
+                        <img id="share_gif" src="" onload="gif('show')">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="container bg-dark-1">
+
+            <img src="img/Logo4.png" alt="" srcset="" >    
+            <p class="text-white">© 2020 Copyright</p>
+            
+
+            
+        </footer>
+
+        <script src="js/script.js"></script>
+        <script src="js/api.js"></script>
+    </body>
+</html>
